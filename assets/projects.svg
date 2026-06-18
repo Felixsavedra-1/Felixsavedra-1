@@ -8,7 +8,7 @@
     <!-- typewriter reveal clips: base width = full (static fallback shows text); set to 0 at load, then grow.
          Rows are chained so each begins at the previous row's .end. -->
     <clipPath id="pclip1">
-      <rect x="120" y="92" height="34" width="595">
+      <rect x="120" y="92" height="34" width="0">
         <set attributeName="width" to="0" begin="0s" fill="freeze"/>
         <animate id="r1" attributeName="width" calcMode="discrete"
                  values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;544;578;595"
@@ -16,7 +16,7 @@
       </rect>
     </clipPath>
     <clipPath id="pclip2">
-      <rect x="120" y="144" height="34" width="527">
+      <rect x="120" y="144" height="34" width="0">
         <set attributeName="width" to="0" begin="0s" fill="freeze"/>
         <animate id="r2" attributeName="width" calcMode="discrete"
                  values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;527"
@@ -24,7 +24,7 @@
       </rect>
     </clipPath>
     <clipPath id="pclip3">
-      <rect x="120" y="196" height="34" width="799">
+      <rect x="120" y="196" height="34" width="0">
         <set attributeName="width" to="0" begin="0s" fill="freeze"/>
         <animate id="r3" attributeName="width" calcMode="discrete"
                  values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;544;578;612;646;680;714;748;782;799"
@@ -32,7 +32,7 @@
       </rect>
     </clipPath>
     <clipPath id="pclip4">
-      <rect x="120" y="248" height="34" width="680">
+      <rect x="120" y="248" height="34" width="0">
         <set attributeName="width" to="0" begin="0s" fill="freeze"/>
         <animate id="r4" attributeName="width" calcMode="discrete"
                  values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;544;578;612;646;680"
@@ -137,8 +137,8 @@
     <set attributeName="opacity" to="0" begin="r4.end" fill="freeze"/>
   </rect>
 
-  <!-- Row 5 (VR-05): fades in (not typed) — not done yet. Static fallback: visible. -->
-  <g opacity="1">
+  <!-- Row 5 (VR-05): fades in (not typed) — not done yet. Hidden until r4.end. -->
+  <g opacity="0">
     <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
     <animate attributeName="opacity" from="0" to="1" begin="r4.end" dur="0.8s" fill="freeze"/>
     <text x="120" y="324"
