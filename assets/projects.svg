@@ -1,62 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Projects — Vedra Research: VR-01 Vero - Wealth Management CLI, VR-02 Orbital Mechanics Engine, VR-03 Red Bull Racing F1 Performance Analytics, VR-04 Red Bull Racing F1 OPEX Analytics, VR-05 Cancer Research Tool (in development)">
   <defs>
-    <!-- soft blur for the timeline-node glow halos (static filter; the pulse is driven by opacity) -->
     <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
       <feGaussianBlur stdDeviation="3"/>
     </filter>
-
-    <!-- typewriter reveal clips: base width = full (static fallback shows text); set to 0 at load, then grow.
-         Rows are chained so each begins at the previous row's .end. -->
-    <clipPath id="pclip1">
-      <rect x="120" y="92" height="34" width="0">
-        <set attributeName="width" to="0" begin="0s" fill="freeze"/>
-        <animate id="r1" attributeName="width" calcMode="discrete"
-                 values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;544;578;595"
-                 begin="0.5s" dur="1.6s" fill="freeze"/>
-      </rect>
-    </clipPath>
-    <clipPath id="pclip2">
-      <rect x="120" y="144" height="34" width="0">
-        <set attributeName="width" to="0" begin="0s" fill="freeze"/>
-        <animate id="r2" attributeName="width" calcMode="discrete"
-                 values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;527"
-                 begin="r1.end" dur="1.4s" fill="freeze"/>
-      </rect>
-    </clipPath>
-    <clipPath id="pclip3">
-      <rect x="120" y="196" height="34" width="0">
-        <set attributeName="width" to="0" begin="0s" fill="freeze"/>
-        <animate id="r3" attributeName="width" calcMode="discrete"
-                 values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;544;578;612;646;680;714;748;782;799"
-                 begin="r2.end" dur="2.15s" fill="freeze"/>
-      </rect>
-    </clipPath>
-    <clipPath id="pclip4">
-      <rect x="120" y="248" height="34" width="0">
-        <set attributeName="width" to="0" begin="0s" fill="freeze"/>
-        <animate id="r4" attributeName="width" calcMode="discrete"
-                 values="0;34;68;102;136;170;204;238;272;306;340;374;408;442;476;510;544;578;612;646;680"
-                 begin="r3.end" dur="1.8s" fill="freeze"/>
-      </rect>
-    </clipPath>
   </defs>
 
-  <!-- Black 40% -->
   <rect width="1280" height="360" fill="#0A0A0B"/>
 
-  <!-- Eyebrow (grey) + crimson tick / grey hairline — echoes the name banner's tagline rule -->
   <text x="80" y="52" fill="#8C8C93" opacity="0.75"
         font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="0.5">Projects</text>
   <line x1="116" y1="66" x2="560" y2="66" stroke="#8C8C93" stroke-width="1" opacity="0.4"/>
   <line x1="80" y1="66" x2="116" y2="66" stroke="#B23A3A" stroke-width="2"/>
 
-  <!-- Gold spine (structural accent, 20%) with crimson nodes (10%) — a quiet timeline -->
   <line x1="88" y1="107" x2="88" y2="315" stroke="#C6A15B" stroke-width="1.5" opacity="0.5"/>
 
-  <!-- Each node pulses while its row is typed: a soft crimson halo (default opacity 0 → static
-       fallback shows plain dots) plus a slight swell of the core dot. Timing reuses the
-       typewriter event chain (r1.end … r4.end) so the glow tracks the typing exactly. -->
-  <!-- VR-01 -->
   <circle cx="88" cy="107" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" begin="0.5s" dur="1.6s"/>
     <animate attributeName="r" values="4;11;4" begin="0.5s" dur="1.6s"/>
@@ -64,7 +21,6 @@
   <circle cx="88" cy="107" r="3" fill="#B23A3A">
     <animate attributeName="r" values="3;4.5;3" begin="0.5s" dur="1.6s"/>
   </circle>
-  <!-- VR-02 -->
   <circle cx="88" cy="159" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" begin="r1.end" dur="1.4s"/>
     <animate attributeName="r" values="4;11;4" begin="r1.end" dur="1.4s"/>
@@ -72,7 +28,6 @@
   <circle cx="88" cy="159" r="3" fill="#B23A3A">
     <animate attributeName="r" values="3;4.5;3" begin="r1.end" dur="1.4s"/>
   </circle>
-  <!-- VR-03 -->
   <circle cx="88" cy="211" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" begin="r2.end" dur="2.15s"/>
     <animate attributeName="r" values="4;11;4" begin="r2.end" dur="2.15s"/>
@@ -80,7 +35,6 @@
   <circle cx="88" cy="211" r="3" fill="#B23A3A">
     <animate attributeName="r" values="3;4.5;3" begin="r2.end" dur="2.15s"/>
   </circle>
-  <!-- VR-04 -->
   <circle cx="88" cy="263" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" begin="r3.end" dur="1.8s"/>
     <animate attributeName="r" values="4;11;4" begin="r3.end" dur="1.8s"/>
@@ -88,7 +42,6 @@
   <circle cx="88" cy="263" r="3" fill="#B23A3A">
     <animate attributeName="r" values="3;4.5;3" begin="r3.end" dur="1.8s"/>
   </circle>
-  <!-- VR-05 (fades in) -->
   <circle cx="88" cy="315" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" begin="r4.end" dur="0.8s"/>
     <animate attributeName="r" values="4;11;4" begin="r4.end" dur="0.8s"/>
@@ -97,17 +50,52 @@
     <animate attributeName="r" values="3;4.5;3" begin="r4.end" dur="0.8s"/>
   </circle>
 
-  <!-- Rows 1–4: typed in sequence. Code in grey, name in bone (monospace keeps columns aligned). -->
-  <text x="120" y="116" clip-path="url(#pclip1)"
+  <text x="120" y="116"
         font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-01</tspan><tspan fill="#E8E3D6">  Vero - Wealth Management CLI</tspan></text>
-  <text x="120" y="168" clip-path="url(#pclip2)"
+  <text x="120" y="168"
         font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-02</tspan><tspan fill="#E8E3D6">  Orbital Mechanics Engine</tspan></text>
-  <text x="120" y="220" clip-path="url(#pclip3)"
+  <text x="120" y="220"
         font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-03</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 Performance Analytics</tspan></text>
-  <text x="120" y="272" clip-path="url(#pclip4)"
+  <text x="120" y="272"
         font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-04</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 OPEX Analytics</tspan></text>
 
-  <!-- crimson typing carets (10%): hidden by default, ride the leading edge + blink while typing, then hide -->
+  <rect x="120" y="92" height="34" width="0" fill="#0A0A0B">
+    <set attributeName="width" to="595" begin="0s" fill="freeze"/>
+    <animate attributeName="x" calcMode="discrete"
+             values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;715"
+             begin="0.5s" dur="1.6s" fill="freeze"/>
+    <animate id="r1" attributeName="width" calcMode="discrete"
+             values="595;561;527;493;459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+             begin="0.5s" dur="1.6s" fill="freeze"/>
+  </rect>
+  <rect x="120" y="144" height="34" width="0" fill="#0A0A0B">
+    <set attributeName="width" to="527" begin="0s" fill="freeze"/>
+    <animate attributeName="x" calcMode="discrete"
+             values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;647"
+             begin="r1.end" dur="1.4s" fill="freeze"/>
+    <animate id="r2" attributeName="width" calcMode="discrete"
+             values="527;493;459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+             begin="r1.end" dur="1.4s" fill="freeze"/>
+  </rect>
+  <rect x="120" y="196" height="34" width="0" fill="#0A0A0B">
+    <set attributeName="width" to="799" begin="0s" fill="freeze"/>
+    <animate attributeName="x" calcMode="discrete"
+             values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;732;766;800;834;868;902;919"
+             begin="r2.end" dur="2.15s" fill="freeze"/>
+    <animate id="r3" attributeName="width" calcMode="discrete"
+             values="799;765;731;697;663;629;595;561;527;493;459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+             begin="r2.end" dur="2.15s" fill="freeze"/>
+  </rect>
+  <rect x="120" y="248" height="34" width="0" fill="#0A0A0B">
+    <set attributeName="width" to="680" begin="0s" fill="freeze"/>
+    <animate attributeName="x" calcMode="discrete"
+             values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;732;766;800"
+             begin="r3.end" dur="1.8s" fill="freeze"/>
+    <animate id="r4" attributeName="width" calcMode="discrete"
+             values="680;646;612;578;544;510;476;442;408;374;340;306;272;238;204;170;136;102;68;34;0"
+             begin="r3.end" dur="1.8s" fill="freeze"/>
+  </rect>
+
   <rect y="92" width="3" height="30" x="715" fill="#B23A3A" opacity="0">
     <animate attributeName="x" calcMode="discrete"
              values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;715"
@@ -137,13 +125,11 @@
     <set attributeName="opacity" to="0" begin="r4.end" fill="freeze"/>
   </rect>
 
-  <!-- Row 5 (VR-05): fades in (not typed) — not done yet. Hidden until r4.end. -->
   <g opacity="0">
     <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
     <animate attributeName="opacity" from="0" to="1" begin="r4.end" dur="0.8s" fill="freeze"/>
     <text x="120" y="324"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-05</tspan><tspan fill="#E8E3D6">  Cancer Research Tool</tspan></text>
-    <!-- "In Development" badge — crimson detail (10%) -->
     <rect x="596" y="308" width="150" height="26" rx="5" fill="#B23A3A" fill-opacity="0.12" stroke="#B23A3A" stroke-width="1"/>
     <text x="610" y="325" fill="#B23A3A"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="0.3">In Development</text>
