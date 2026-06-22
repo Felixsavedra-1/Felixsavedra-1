@@ -1,15 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Projects — Vedra Research: VR-01 Cancer Research Tool, VR-02 Vero - Wealth Management CLI, VR-03 Orbital Mechanics Engine, VR-04 Red Bull Racing F1 Performance Analytics, VR-05 Red Bull Racing F1 OPEX Analytics">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Projects — Vedra Research: VR-01 Cancer Research Tool, VR-02 Vero - Wealth Management CLI, VR-03 Orbital Mechanics Engine, VR-04 Red Bull Racing F1 Performance Analytics, VR-05 Red Bull Racing F1 OPEX Analytics" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
   <defs>
     <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
       <feGaussianBlur stdDeviation="3"/>
     </filter>
+    <linearGradient id="pgridFade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="130" y2="0">
+      <stop offset="0"   stop-color="#8C8C93" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#8C8C93" stop-opacity="0.16"/>
+      <stop offset="1"   stop-color="#8C8C93" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <rect width="1280" height="360" fill="#0A0A0B"/>
 
+  <g stroke="url(#pgridFade)" stroke-width="1">
+    <line x1="8"   y1="0" x2="8"   y2="360"/>
+    <line x1="48"  y1="0" x2="48"  y2="360"/>
+    <line x1="88"  y1="0" x2="88"  y2="360"/>
+    <line x1="128" y1="0" x2="128" y2="360"/>
+    <line x1="0" y1="0"   x2="130" y2="0"/>
+    <line x1="0" y1="40"  x2="130" y2="40"/>
+    <line x1="0" y1="80"  x2="130" y2="80"/>
+    <line x1="0" y1="120" x2="130" y2="120"/>
+    <line x1="0" y1="160" x2="130" y2="160"/>
+    <line x1="0" y1="200" x2="130" y2="200"/>
+    <line x1="0" y1="240" x2="130" y2="240"/>
+    <line x1="0" y1="280" x2="130" y2="280"/>
+    <line x1="0" y1="320" x2="130" y2="320"/>
+    <line x1="0" y1="360" x2="130" y2="360"/>
+  </g>
+  <rect x="0" y="0" width="130" height="0" fill="#0A0A0B">
+    <set attributeName="height" to="360" begin="0s" fill="freeze"/>
+    <animate attributeName="y"      from="0"   to="360" begin="0.5s" dur="8.15s" fill="freeze"/>
+    <animate attributeName="height" from="360" to="0"   begin="0.5s" dur="8.15s" fill="freeze"/>
+  </rect>
+
   <g transform="translate(40,0)">
     <text x="80" y="52" fill="#8C8C93" opacity="0.75"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="0.5">Projects</text>
+          font-size="15" letter-spacing="0.5">Projects</text>
     <line x1="116" y1="66" x2="560" y2="66" stroke="#8C8C93" stroke-width="1" opacity="0.4"/>
     <line x1="80" y1="66" x2="116" y2="66" stroke="#B23A3A" stroke-width="2"/>
 
@@ -52,15 +79,15 @@
     </circle>
 
     <text x="120" y="116"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-01</tspan><tspan fill="#E8E3D6">  Cancer Research Tool</tspan></text>
+          font-size="28"><tspan fill="#8C8C93">VR-01</tspan><tspan fill="#E8E3D6">  Cancer Research Tool</tspan></text>
     <text x="120" y="168"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-02</tspan><tspan fill="#E8E3D6">  Vero - Wealth Management CLI</tspan></text>
+          font-size="28"><tspan fill="#8C8C93">VR-02</tspan><tspan fill="#E8E3D6">  Vero - Wealth Management CLI</tspan></text>
     <text x="120" y="220"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-03</tspan><tspan fill="#E8E3D6">  Orbital Mechanics Engine</tspan></text>
+          font-size="28"><tspan fill="#8C8C93">VR-03</tspan><tspan fill="#E8E3D6">  Orbital Mechanics Engine</tspan></text>
     <text x="120" y="272"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-04</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 Performance Analytics</tspan></text>
+          font-size="28"><tspan fill="#8C8C93">VR-04</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 Performance Analytics</tspan></text>
     <text x="120" y="324"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28"><tspan fill="#8C8C93">VR-05</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 OPEX Analytics</tspan></text>
+          font-size="28"><tspan fill="#8C8C93">VR-05</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 OPEX Analytics</tspan></text>
 
     <rect x="120" y="92" height="34" width="0" fill="#0A0A0B">
       <set attributeName="width" to="459" begin="0s" fill="freeze"/>
