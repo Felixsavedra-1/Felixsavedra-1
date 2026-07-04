@@ -39,12 +39,12 @@
           font-size="15" letter-spacing="0.5">Projects</text>
 
     <rect x="80" y="38" height="20" width="0" fill="#0A0A0B">
-      <set attributeName="width" to="79" begin="0s" fill="freeze"/>
+      <set attributeName="width" to="119" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="80;89.88;99.75;109.62;119.5;129.38;139.25;149.12;159"
                begin="6.9s" dur="0.8s" fill="freeze"/>
       <animate id="pt1" attributeName="width" calcMode="discrete"
-               values="79;69.12;59.25;49.38;39.5;29.62;19.75;9.88;0"
+               values="119;109.12;99.25;89.38;79.5;69.62;59.75;49.88;0"
                begin="6.9s" dur="0.8s" fill="freeze"/>
     </rect>
     <rect y="40" width="2" height="16" x="159" fill="#B23A3A" opacity="0">
@@ -177,48 +177,48 @@
           font-size="28"><tspan fill="#8C8C93">VR-05</tspan><tspan fill="#E8E3D6">  Red Bull Racing F1 OPEX Analytics</tspan></text>
 
     <rect x="120" y="92" height="34" width="0" fill="#0A0A0B">
-      <set attributeName="width" to="459" begin="0s" fill="freeze"/>
+      <set attributeName="width" to="499" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;579"
                begin="pt2.end" dur="1.2s" fill="freeze"/>
       <animate id="r1" attributeName="width" calcMode="discrete"
-               values="459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+               values="499;465;431;397;363;329;295;261;227;193;159;125;91;57;0"
                begin="pt2.end" dur="1.2s" fill="freeze"/>
     </rect>
     <rect x="120" y="144" height="34" width="0" fill="#0A0A0B">
-      <set attributeName="width" to="595" begin="0s" fill="freeze"/>
+      <set attributeName="width" to="635" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;715"
                begin="r1.end" dur="1.6s" fill="freeze"/>
       <animate id="r2" attributeName="width" calcMode="discrete"
-               values="595;561;527;493;459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+               values="635;601;567;533;499;465;431;397;363;329;295;261;227;193;159;125;91;57;0"
                begin="r1.end" dur="1.6s" fill="freeze"/>
     </rect>
     <rect x="120" y="196" height="34" width="0" fill="#0A0A0B">
-      <set attributeName="width" to="527" begin="0s" fill="freeze"/>
+      <set attributeName="width" to="567" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;647"
                begin="r2.end" dur="1.4s" fill="freeze"/>
       <animate id="r3" attributeName="width" calcMode="discrete"
-               values="527;493;459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+               values="567;533;499;465;431;397;363;329;295;261;227;193;159;125;91;57;0"
                begin="r2.end" dur="1.4s" fill="freeze"/>
     </rect>
     <rect x="120" y="248" height="34" width="0" fill="#0A0A0B">
-      <set attributeName="width" to="799" begin="0s" fill="freeze"/>
+      <set attributeName="width" to="839" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;732;766;800;834;868;902;919"
                begin="r3.end" dur="2.15s" fill="freeze"/>
       <animate id="r4" attributeName="width" calcMode="discrete"
-               values="799;765;731;697;663;629;595;561;527;493;459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
+               values="839;805;771;737;703;669;635;601;567;533;499;465;431;397;363;329;295;261;227;193;159;125;91;57;0"
                begin="r3.end" dur="2.15s" fill="freeze"/>
     </rect>
     <rect x="120" y="300" height="34" width="0" fill="#0A0A0B">
-      <set attributeName="width" to="680" begin="0s" fill="freeze"/>
+      <set attributeName="width" to="720" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;596;630;664;698;732;766;800"
                begin="r4.end" dur="1.8s" fill="freeze"/>
       <animate id="r5" attributeName="width" calcMode="discrete"
-               values="680;646;612;578;544;510;476;442;408;374;340;306;272;238;204;170;136;102;68;34;0"
+               values="720;686;652;618;584;550;516;482;448;414;380;346;312;278;244;210;176;142;108;74;0"
                begin="r4.end" dur="1.8s" fill="freeze"/>
     </rect>
 

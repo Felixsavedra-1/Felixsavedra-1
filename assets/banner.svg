@@ -270,22 +270,22 @@
 
   <rect x="80" y="104" height="60" width="0" fill="#0A0A0B">
     <set attributeName="x" to="80" begin="0s" fill="freeze"/>
-    <set attributeName="width" to="397" begin="0s" fill="freeze"/>
+    <set attributeName="width" to="437" begin="0s" fill="freeze"/>
     <animate attributeName="x" calcMode="discrete"
              values="80;111;141;172;202;233;263;294;324;355;385;416;446;477"
              begin="0.6s" dur="1.3s" fill="freeze"/>
     <animate id="t1" attributeName="width" calcMode="discrete"
-             values="397;366;336;305;275;244;214;183;153;122;92;61;31;0"
+             values="437;406;376;345;315;284;254;223;193;162;132;101;71;0"
              begin="0.6s" dur="1.3s" fill="freeze"/>
   </rect>
   <rect x="82" y="182" height="20" width="0" fill="#0A0A0B">
     <set attributeName="x" to="82" begin="0s" fill="freeze"/>
-    <set attributeName="width" to="334" begin="0s" fill="freeze"/>
+    <set attributeName="width" to="374" begin="0s" fill="freeze"/>
     <animate attributeName="x" calcMode="discrete"
              values="82;102;121;141;161;180;200;220;239;259;278;298;318;337;357;377;396;416"
              begin="t1.end" dur="1.4s" fill="freeze"/>
     <animate id="t2" attributeName="width" calcMode="discrete"
-             values="334;314;295;275;255;236;216;196;177;157;138;118;98;79;59;39;20;0"
+             values="374;354;335;315;295;276;256;236;217;197;178;158;138;119;99;79;60;0"
              begin="t1.end" dur="1.4s" fill="freeze"/>
   </rect>
 
@@ -315,12 +315,12 @@
 
   <rect x="82" y="238" height="20" width="0" fill="#0A0A0B">
     <set attributeName="x" to="82" begin="0s" fill="freeze"/>
-    <set attributeName="width" to="572" begin="0s" fill="freeze"/>
+    <set attributeName="width" to="612" begin="0s" fill="freeze"/>
     <animate attributeName="x" calcMode="discrete"
              values="82;101;119;138;157;175;194;213;231;250;269;287;306;325;343;362;381;399;418;437;455;474;493;511;530;549;567;586;605;623;642;654"
              begin="t3.end" dur="2.5s" fill="freeze"/>
     <animate id="t4" attributeName="width" calcMode="discrete"
-             values="572;553;535;516;497;479;460;441;423;404;385;367;348;329;311;292;273;255;236;217;199;180;161;143;124;105;87;68;49;31;12;0"
+             values="612;593;575;556;537;519;500;481;463;444;425;407;388;369;351;332;313;295;276;257;239;220;201;183;164;145;127;108;89;71;52;0"
              begin="t3.end" dur="2.5s" fill="freeze"/>
   </rect>
   <rect y="240" width="2" height="16" x="82" fill="#B23A3A" opacity="0">
