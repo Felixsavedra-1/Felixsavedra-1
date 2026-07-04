@@ -11,15 +11,15 @@
 
 <table width="100%">
 <tr>
-<td>
+<td width="70%">
 
 [LinkedIn](https://linkedin.com/in/felixsavedra) ·
 [Vedra Research](https://vedraresearch.github.io/Vedra-Research/)
 
 </td>
-<td align="right">
+<td width="30%" align="right">
 
-<img src="assets/stats.svg" height="24" alt="233 contributions">
+<img src="assets/stats.svg" height="24" alt="235 contributions">
 
 </td>
 </tr>
