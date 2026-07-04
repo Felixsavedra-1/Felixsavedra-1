@@ -241,14 +241,14 @@
       <animate attributeName="height" dur="4.8s" repeatCount="indefinite" values="92.5;111.5;92.5;78.9;92.5"/>
     </rect>
     <line x1="952" y1="117.4" x2="1208" y2="117.4" stroke="#E8E3D6" stroke-width="1" stroke-dasharray="5 4" opacity="0.42"/>
-    <circle cx="1080.0" r="7" fill="#B23A3A" opacity="0.0">
+    <circle cx="1080.0" r="7" fill="#B23A3A" opacity="0">
       <animate attributeName="opacity" dur="4.6s" repeatCount="indefinite" values="0.4;0.55;0.4;0.28;0.4"/>
       <animate attributeName="cy" dur="4.6s" repeatCount="indefinite" values="107.9;88.9;107.9;121.5;107.9"/>
     </circle>
     <circle cx="1080.0" r="1.8" fill="#B23A3A">
       <animate attributeName="cy" dur="4.6s" repeatCount="indefinite" values="107.9;88.9;107.9;121.5;107.9"/>
     </circle>
-    <circle cx="1153.2" r="7" fill="#B23A3A" opacity="0.0">
+    <circle cx="1153.2" r="7" fill="#B23A3A" opacity="0">
       <animate attributeName="opacity" dur="4.1s" repeatCount="indefinite" values="0.4;0.55;0.4;0.28;0.4"/>
       <animate attributeName="cy" dur="4.1s" repeatCount="indefinite" values="102.5;83.4;102.5;116.1;102.5"/>
     </circle>
