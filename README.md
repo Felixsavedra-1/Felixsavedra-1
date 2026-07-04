@@ -9,5 +9,5 @@
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-[Portfolio](https://vedraresearch.github.io/Vedra-Research/) ·
-[LinkedIn](https://linkedin.com/in/felixsavedra)
+[LinkedIn](https://linkedin.com/in/felixsavedra) ·
+[Vedra Research](https://vedraresearch.github.io/Vedra-Research/)
