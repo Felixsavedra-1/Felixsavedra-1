@@ -42,16 +42,16 @@
       <set attributeName="width" to="79" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="80;89.88;99.75;109.62;119.5;129.38;139.25;149.12;159"
-               begin="0.5s" dur="0.8s" fill="freeze"/>
+               begin="6.9s" dur="0.8s" fill="freeze"/>
       <animate id="pt1" attributeName="width" calcMode="discrete"
                values="79;69.12;59.25;49.38;39.5;29.62;19.75;9.88;0"
-               begin="0.5s" dur="0.8s" fill="freeze"/>
+               begin="6.9s" dur="0.8s" fill="freeze"/>
     </rect>
     <rect y="40" width="2" height="16" x="159" fill="#B23A3A" opacity="0">
       <animate attributeName="x" calcMode="discrete"
                values="80;89.88;99.75;109.62;119.5;129.38;139.25;149.12;159"
-               begin="0.5s" dur="0.8s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="0.5s" end="pt1.end"/>
+               begin="6.9s" dur="0.8s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="6.9s" end="pt1.end"/>
       <set attributeName="opacity" to="0" begin="pt1.end" fill="freeze"/>
     </rect>
 
