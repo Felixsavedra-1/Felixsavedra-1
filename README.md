@@ -9,5 +9,18 @@
 
 <img src="assets/rule.svg" width="100%" alt="">
 
+<table width="100%">
+<tr>
+<td>
+
 [LinkedIn](https://linkedin.com/in/felixsavedra) ·
 [Vedra Research](https://vedraresearch.github.io/Vedra-Research/)
+
+</td>
+<td align="right">
+
+<img src="assets/stats.svg" height="24" alt="233 contributions">
+
+</td>
+</tr>
+</table>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Projects — Vedra Research: VR-01 Cancer Research Tool, VR-02 Vero - Wealth Management CLI, VR-03 Orbital Mechanics Engine, VR-04 Red Bull Racing F1 Performance Analytics, VR-05 Red Bull Racing F1 OPEX Analytics — 215 total contributions" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Projects — Vedra Research: VR-01 Cancer Research Tool, VR-02 Vero - Wealth Management CLI, VR-03 Orbital Mechanics Engine, VR-04 Red Bull Racing F1 Performance Analytics, VR-05 Red Bull Racing F1 OPEX Analytics" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
   <defs>
     <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
       <feGaussianBlur stdDeviation="3"/>
@@ -30,81 +30,140 @@
   </g>
   <rect x="0" y="0" width="130" height="0" fill="#0A0A0B">
     <set attributeName="height" to="360" begin="0s" fill="freeze"/>
-    <animate attributeName="y"      from="0"   to="360" begin="0.5s" dur="8.15s" fill="freeze"/>
-    <animate attributeName="height" from="360" to="0"   begin="0.5s" dur="8.15s" fill="freeze"/>
+    <animate attributeName="y"      from="0"   to="360" begin="pt2.end" dur="8.15s" fill="freeze"/>
+    <animate attributeName="height" from="360" to="0"   begin="pt2.end" dur="8.15s" fill="freeze"/>
   </rect>
-
-  <g text-anchor="middle" transform="translate(1175,-130)">
-    <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
-    <animate attributeName="opacity" calcMode="discrete"
-             values="0;1;0;1;0;0.55;1" keyTimes="0;0.08;0.2;0.34;0.5;0.66;1"
-             begin="r5.end" dur="0.55s" fill="freeze"/>
-    <g>
-      <animateTransform attributeName="transform" type="translate" calcMode="discrete"
-               values="0 0;-4 1;3 -2;-2 0;0 0;5 -2;-4 2;2 -1;0 0"
-               keyTimes="0;0.25;0.264;0.278;0.292;0.7;0.714;0.728;0.742"
-               begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/>
-      <text x="-5" y="210" font-size="60" fill="#B23A3A" opacity="0">215<animate attributeName="opacity" calcMode="discrete" values="0;0.5;0;0.35;0" keyTimes="0;0.08;0.2;0.34;0.5" begin="r5.end" dur="0.55s"/><animate attributeName="opacity" calcMode="discrete" values="0;0.55;0;0.5;0;0" keyTimes="0;0.25;0.278;0.714;0.742;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/></text>
-      <text x="5" y="210" font-size="60" fill="#8C8C93" opacity="0">215<animate attributeName="opacity" calcMode="discrete" values="0;0;0.5;0;0.35;0" keyTimes="0;0.08;0.2;0.34;0.42;0.55" begin="r5.end" dur="0.55s"/><animate attributeName="opacity" calcMode="discrete" values="0;0.4;0;0.4;0;0" keyTimes="0;0.264;0.292;0.7;0.728;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/></text>
-      <text y="210" font-size="60" fill="#B23A3A" filter="url(#glow)" opacity="0.55">215<animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" begin="r5.end" repeatCount="indefinite"/></text>
-      <text y="210" font-size="60" fill="#B23A3A">215</text>
-      <rect x="-58" y="170" width="116" height="6" fill="#0A0A0B" opacity="0">
-        <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.257;0.285;0.707;0.735;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="-58" y="188" width="116" height="8" fill="#0A0A0B" opacity="0">
-        <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.264;0.278;0.72;0.75;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="-58" y="200" width="116" height="4" fill="#0A0A0B" opacity="0">
-        <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0;0.25;0.264;0.7;0.714;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="-3" y="240" font-size="14" fill="#B23A3A" opacity="0" letter-spacing="0.5">Total contributions<animate attributeName="opacity" calcMode="discrete" values="0;0.6;0;0.6;0;0" keyTimes="0;0.25;0.285;0.71;0.74;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/></text>
-      <text x="3" y="240" font-size="14" fill="#8C8C93" opacity="0" letter-spacing="0.5">Total contributions<animate attributeName="opacity" calcMode="discrete" values="0;0.45;0;0.45;0;0" keyTimes="0;0.264;0.292;0.7;0.728;1" begin="r5.end+1.5s" dur="3.5s" repeatCount="indefinite"/></text>
-      <text y="240" font-size="14" fill="#B23A3A" opacity="0.8" letter-spacing="0.5">Total contributions</text>
-    </g>
-  </g>
 
   <g transform="translate(40,0)">
     <text x="80" y="52" fill="#8C8C93" opacity="0.75"
           font-size="15" letter-spacing="0.5">Projects</text>
-    <line x1="80" y1="66" x2="560" y2="66" stroke="#B23A3A" stroke-width="2"/>
 
-    <line x1="88" y1="107" x2="88" y2="315" stroke="#C6A15B" stroke-width="1.5" opacity="0.5"/>
+    <rect x="80" y="38" height="20" width="0" fill="#0A0A0B">
+      <set attributeName="width" to="79" begin="0s" fill="freeze"/>
+      <animate attributeName="x" calcMode="discrete"
+               values="80;89.88;99.75;109.62;119.5;129.38;139.25;149.12;159"
+               begin="0.5s" dur="0.8s" fill="freeze"/>
+      <animate id="pt1" attributeName="width" calcMode="discrete"
+               values="79;69.12;59.25;49.38;39.5;29.62;19.75;9.88;0"
+               begin="0.5s" dur="0.8s" fill="freeze"/>
+    </rect>
+    <rect y="40" width="2" height="16" x="159" fill="#B23A3A" opacity="0">
+      <animate attributeName="x" calcMode="discrete"
+               values="80;89.88;99.75;109.62;119.5;129.38;139.25;149.12;159"
+               begin="0.5s" dur="0.8s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="0.5s" end="pt1.end"/>
+      <set attributeName="opacity" to="0" begin="pt1.end" fill="freeze"/>
+    </rect>
 
-    <circle cx="88" cy="107" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0.5;0" begin="0.5s" dur="1.2s"/>
-      <animate attributeName="r" values="4;11;4" begin="0.5s" dur="1.2s"/>
-    </circle>
-    <circle cx="88" cy="107" r="3" fill="#B23A3A">
-      <animate attributeName="r" values="3;4.5;3" begin="0.5s" dur="1.2s"/>
-    </circle>
-    <circle cx="88" cy="159" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0.5;0" begin="r1.end" dur="1.6s"/>
-      <animate attributeName="r" values="4;11;4" begin="r1.end" dur="1.6s"/>
-    </circle>
-    <circle cx="88" cy="159" r="3" fill="#B23A3A">
-      <animate attributeName="r" values="3;4.5;3" begin="r1.end" dur="1.6s"/>
-    </circle>
-    <circle cx="88" cy="211" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0.5;0" begin="r2.end" dur="1.4s"/>
-      <animate attributeName="r" values="4;11;4" begin="r2.end" dur="1.4s"/>
-    </circle>
-    <circle cx="88" cy="211" r="3" fill="#B23A3A">
-      <animate attributeName="r" values="3;4.5;3" begin="r2.end" dur="1.4s"/>
-    </circle>
-    <circle cx="88" cy="263" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0.5;0" begin="r3.end" dur="2.15s"/>
-      <animate attributeName="r" values="4;11;4" begin="r3.end" dur="2.15s"/>
-    </circle>
-    <circle cx="88" cy="263" r="3" fill="#B23A3A">
-      <animate attributeName="r" values="3;4.5;3" begin="r3.end" dur="2.15s"/>
-    </circle>
-    <circle cx="88" cy="315" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0.5;0" begin="r4.end" dur="1.8s"/>
-      <animate attributeName="r" values="4;11;4" begin="r4.end" dur="1.8s"/>
-    </circle>
-    <circle cx="88" cy="315" r="3" fill="#B23A3A">
-      <animate attributeName="r" values="3;4.5;3" begin="r4.end" dur="1.8s"/>
-    </circle>
+    <g opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+      <animate id="pt2" attributeName="opacity" from="0" to="1" begin="pt1.end" dur="0.6s" fill="freeze"/>
+      <line x1="80" y1="66" x2="560" y2="66" stroke="#B23A3A" stroke-width="2"/>
+    </g>
+
+    <line x1="88" y1="107" x2="88" y2="315" stroke="#C6A15B" stroke-width="1.5" opacity="0.5">
+      <set attributeName="y2" to="107" begin="0s" fill="freeze"/>
+      <animate attributeName="y2" from="107" to="159" begin="pt2.end" dur="1.2s" fill="freeze"/>
+      <animate attributeName="y2" from="159" to="211" begin="r1.end"  dur="1.6s" fill="freeze"/>
+      <animate attributeName="y2" from="211" to="263" begin="r2.end"  dur="1.4s" fill="freeze"/>
+      <animate attributeName="y2" from="263" to="315" begin="r3.end"  dur="2.15s" fill="freeze"/>
+    </line>
+
+    <g opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="0;1;0;1;0;0.55;1" keyTimes="0;0.08;0.2;0.34;0.5;0.66;1"
+               begin="pt2.end" dur="0.35s" fill="freeze"/>
+      <circle cx="88" cy="107" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
+        <animate attributeName="opacity" values="0;0.5;0" begin="pt2.end" dur="1.2s"/>
+        <animate attributeName="r" values="4;11;4" begin="pt2.end" dur="1.2s"/>
+      </circle>
+      <circle cx="88" cy="107" r="3" fill="#B23A3A">
+        <animate attributeName="r" values="3;4.5;3" begin="pt2.end" dur="1.2s"/>
+      </circle>
+      <circle cx="86.3" cy="107" r="2" fill="#B23A3A" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0.6;0;0.5;0" keyTimes="0;0.08;0.2;0.34;0.5" begin="pt2.end" dur="0.35s" fill="freeze"/>
+      </circle>
+      <circle cx="89.7" cy="107" r="2" fill="#8C8C93" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;0.5;0;0.4;0" keyTimes="0;0.08;0.2;0.34;0.42;0.55" begin="pt2.end" dur="0.35s" fill="freeze"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="0;1;0;1;0;0.55;1" keyTimes="0;0.08;0.2;0.34;0.5;0.66;1"
+               begin="r1.end" dur="0.35s" fill="freeze"/>
+      <circle cx="88" cy="159" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
+        <animate attributeName="opacity" values="0;0.5;0" begin="r1.end" dur="1.6s"/>
+        <animate attributeName="r" values="4;11;4" begin="r1.end" dur="1.6s"/>
+      </circle>
+      <circle cx="88" cy="159" r="3" fill="#B23A3A">
+        <animate attributeName="r" values="3;4.5;3" begin="r1.end" dur="1.6s"/>
+      </circle>
+      <circle cx="86.3" cy="159" r="2" fill="#B23A3A" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0.6;0;0.5;0" keyTimes="0;0.08;0.2;0.34;0.5" begin="r1.end" dur="0.35s" fill="freeze"/>
+      </circle>
+      <circle cx="89.7" cy="159" r="2" fill="#8C8C93" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;0.5;0;0.4;0" keyTimes="0;0.08;0.2;0.34;0.42;0.55" begin="r1.end" dur="0.35s" fill="freeze"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="0;1;0;1;0;0.55;1" keyTimes="0;0.08;0.2;0.34;0.5;0.66;1"
+               begin="r2.end" dur="0.35s" fill="freeze"/>
+      <circle cx="88" cy="211" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
+        <animate attributeName="opacity" values="0;0.5;0" begin="r2.end" dur="1.4s"/>
+        <animate attributeName="r" values="4;11;4" begin="r2.end" dur="1.4s"/>
+      </circle>
+      <circle cx="88" cy="211" r="3" fill="#B23A3A">
+        <animate attributeName="r" values="3;4.5;3" begin="r2.end" dur="1.4s"/>
+      </circle>
+      <circle cx="86.3" cy="211" r="2" fill="#B23A3A" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0.6;0;0.5;0" keyTimes="0;0.08;0.2;0.34;0.5" begin="r2.end" dur="0.35s" fill="freeze"/>
+      </circle>
+      <circle cx="89.7" cy="211" r="2" fill="#8C8C93" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;0.5;0;0.4;0" keyTimes="0;0.08;0.2;0.34;0.42;0.55" begin="r2.end" dur="0.35s" fill="freeze"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="0;1;0;1;0;0.55;1" keyTimes="0;0.08;0.2;0.34;0.5;0.66;1"
+               begin="r3.end" dur="0.35s" fill="freeze"/>
+      <circle cx="88" cy="263" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
+        <animate attributeName="opacity" values="0;0.5;0" begin="r3.end" dur="2.15s"/>
+        <animate attributeName="r" values="4;11;4" begin="r3.end" dur="2.15s"/>
+      </circle>
+      <circle cx="88" cy="263" r="3" fill="#B23A3A">
+        <animate attributeName="r" values="3;4.5;3" begin="r3.end" dur="2.15s"/>
+      </circle>
+      <circle cx="86.3" cy="263" r="2" fill="#B23A3A" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0.6;0;0.5;0" keyTimes="0;0.08;0.2;0.34;0.5" begin="r3.end" dur="0.35s" fill="freeze"/>
+      </circle>
+      <circle cx="89.7" cy="263" r="2" fill="#8C8C93" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;0.5;0;0.4;0" keyTimes="0;0.08;0.2;0.34;0.42;0.55" begin="r3.end" dur="0.35s" fill="freeze"/>
+      </circle>
+    </g>
+    <g opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="0;1;0;1;0;0.55;1" keyTimes="0;0.08;0.2;0.34;0.5;0.66;1"
+               begin="r4.end" dur="0.35s" fill="freeze"/>
+      <circle cx="88" cy="315" r="4" fill="#B23A3A" filter="url(#glow)" opacity="0">
+        <animate attributeName="opacity" values="0;0.5;0" begin="r4.end" dur="1.8s"/>
+        <animate attributeName="r" values="4;11;4" begin="r4.end" dur="1.8s"/>
+      </circle>
+      <circle cx="88" cy="315" r="3" fill="#B23A3A">
+        <animate attributeName="r" values="3;4.5;3" begin="r4.end" dur="1.8s"/>
+      </circle>
+      <circle cx="86.3" cy="315" r="2" fill="#B23A3A" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0.6;0;0.5;0" keyTimes="0;0.08;0.2;0.34;0.5" begin="r4.end" dur="0.35s" fill="freeze"/>
+      </circle>
+      <circle cx="89.7" cy="315" r="2" fill="#8C8C93" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;0.5;0;0.4;0" keyTimes="0;0.08;0.2;0.34;0.42;0.55" begin="r4.end" dur="0.35s" fill="freeze"/>
+      </circle>
+    </g>
 
     <text x="120" y="116"
           font-size="28"><tspan fill="#8C8C93">VR-01</tspan><tspan fill="#E8E3D6">  Cancer Research Tool</tspan></text>
@@ -121,10 +180,10 @@
       <set attributeName="width" to="459" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;579"
-               begin="0.5s" dur="1.2s" fill="freeze"/>
+               begin="pt2.end" dur="1.2s" fill="freeze"/>
       <animate id="r1" attributeName="width" calcMode="discrete"
                values="459;425;391;357;323;289;255;221;187;153;119;85;51;17;0"
-               begin="0.5s" dur="1.2s" fill="freeze"/>
+               begin="pt2.end" dur="1.2s" fill="freeze"/>
     </rect>
     <rect x="120" y="144" height="34" width="0" fill="#0A0A0B">
       <set attributeName="width" to="595" begin="0s" fill="freeze"/>
@@ -166,8 +225,8 @@
     <rect y="92" width="3" height="30" x="579" fill="#B23A3A" opacity="0">
       <animate attributeName="x" calcMode="discrete"
                values="120;154;188;222;256;290;324;358;392;426;460;494;528;562;579"
-               begin="0.5s" dur="1.2s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="0.5s" end="r1.end"/>
+               begin="pt2.end" dur="1.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="pt2.end" end="r1.end"/>
       <set attributeName="opacity" to="0" begin="r1.end" fill="freeze"/>
     </rect>
     <rect y="144" width="3" height="30" x="715" fill="#B23A3A" opacity="0">
@@ -202,7 +261,7 @@
 
   <g transform="translate(68,107)">
     <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
-    <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.5s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="pt2.end" dur="0.5s" fill="freeze"/>
     <g>
       <path d="M 0 -14 C 11 -10 11 -4 0 0 C -11 4 -11 10 0 14" fill="none" stroke="#B23A3A" stroke-width="1.5" opacity="0.85">
         <animate attributeName="opacity" values="0.85;0.7;0.55;0.7;0.85" keyTimes="0;0.25;0.5;0.75;1" dur="6s" repeatCount="indefinite"/>
