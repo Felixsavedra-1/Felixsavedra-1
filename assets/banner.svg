@@ -311,7 +311,7 @@
   </g>
 
   <text x="82" y="252" fill="#C6A15B" opacity="0.9"
-        font-size="15" letter-spacing="0.5">Vedra Research - simulation &#38; analytics for complex systems</text>
+        font-size="15" letter-spacing="0.5">Vedra Research - simulation &amp; analytics for complex systems</text>
 
   <rect x="82" y="238" height="20" width="0" fill="#0A0A0B">
     <set attributeName="x" to="82" begin="0s" fill="freeze"/>
