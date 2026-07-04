@@ -139,6 +139,7 @@
   </g>
 
   <g opacity="1">
+    <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
     <animate attributeName="opacity" dur="13s" repeatCount="indefinite" calcMode="spline"
              keyTimes="0;0.4;0.435;0.565;0.6;1" values="0;0;1;1;0;0"
              keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1;0.42 0 0.58 1;0 0 1 1" begin="t4.end"/>
