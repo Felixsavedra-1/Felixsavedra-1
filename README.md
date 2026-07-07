@@ -19,7 +19,7 @@
 </td>
 <td width="30%" align="right">
 
-<img src="assets/stats.svg" height="60" alt="235 contributions">
+<img src="assets/stats.svg" height="60" alt="250 contributions">
 
 </td>
 </tr>
