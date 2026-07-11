@@ -9,26 +9,22 @@
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-**On Rotation**
-
-<a href="https://open.spotify.com/track/1AnWncjRJSEiNfhnoNuzl2"><img src="assets/track-01.svg" width="100%" alt="Frontier City — Kings of Leon"></a>
-<a href="https://open.spotify.com/track/0umDVf77ygI5RiVp9OvNDj"><img src="assets/track-02.svg" width="100%" alt="Pyro — Kings of Leon"></a>
-<a href="https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S"><img src="assets/track-03.svg" width="100%" alt="Weird Fishes / Arpeggi — Radiohead"></a>
-
-<img src="assets/rule.svg" width="100%" alt="">
-
 <table width="100%">
 <tr>
-<td width="70%">
+<td width="50%">
 
 [LinkedIn](https://linkedin.com/in/felixsavedra) ·
 [Vedra Research](https://vedraresearch.github.io/Vedra-Research/)
 
 </td>
-<td width="30%" align="right">
+<td width="18%" align="right">
 
 <img src="assets/stats.svg" height="60" alt="260 contributions">
 
 </td>
+<td width="32%" align="right">
+<a href="https://open.spotify.com/track/1AnWncjRJSEiNfhnoNuzl2"><img src="assets/play-01.svg" height="20" alt="Play Frontier City on Spotify"></a> <img src="assets/track-01.svg" height="20" alt="Frontier City — Kings of Leon"><br>
+<a href="https://open.spotify.com/track/0umDVf77ygI5RiVp9OvNDj"><img src="assets/play-02.svg" height="20" alt="Play Pyro on Spotify"></a> <img src="assets/track-02.svg" height="20" alt="Pyro — Kings of Leon"><br>
+<a href="https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S"><img src="assets/play-03.svg" height="20" alt="Play Weird Fishes / Arpeggi on Spotify"></a> <img src="assets/track-03.svg" height="20" alt="Weird Fishes / Arpeggi — Radiohead"></td>
 </tr>
 </table>
