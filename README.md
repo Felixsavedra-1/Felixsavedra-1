@@ -9,6 +9,14 @@
 
 <img src="assets/rule.svg" width="100%" alt="">
 
+**On Rotation**
+
+<a href="https://open.spotify.com/track/1AnWncjRJSEiNfhnoNuzl2"><img src="assets/track-01.svg" width="100%" alt="Frontier City — Kings of Leon"></a>
+<a href="https://open.spotify.com/track/0umDVf77ygI5RiVp9OvNDj"><img src="assets/track-02.svg" width="100%" alt="Pyro — Kings of Leon"></a>
+<a href="https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S"><img src="assets/track-03.svg" width="100%" alt="Weird Fishes / Arpeggi — Radiohead"></a>
+
+<img src="assets/rule.svg" width="100%" alt="">
+
 <table width="100%">
 <tr>
 <td width="70%">
