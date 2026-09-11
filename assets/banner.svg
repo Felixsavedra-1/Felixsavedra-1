@@ -56,14 +56,14 @@
       <animate attributeName="x" calcMode="discrete"
                values="406;442;478;514;550;586;622;658;694;730;766;802;838;874"
                begin="0.6s" dur="1.3s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="0.6s" end="t1.end"/>
+      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" repeatDur="1.3s" begin="0.6s"/>
       <set attributeName="opacity" to="0" begin="t1.end" fill="freeze"/>
     </rect>
     <rect y="181" width="2" height="19" x="449" fill="#B23A3A" opacity="0">
       <animate attributeName="x" calcMode="discrete"
                values="449;472;495;519;542;565;588;611;635;658;681;704;728;751;774;797;820;832"
                begin="t1.end" dur="1.4s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="t1.end" end="t2.end"/>
+      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" repeatDur="1.4s" begin="t1.end"/>
       <set attributeName="opacity" to="0" begin="t2.end" fill="freeze"/>
     </rect>
 
@@ -90,7 +90,7 @@
       <animate attributeName="x" calcMode="discrete"
                values="298;321;344;368;391;414;437;460;483;507;530;553;576;599;623;646;669;692;715;739;762;785;808;831;854;878;901;924;947;970"
                begin="t3.end" dur="2.5s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="t3.end" end="t4.end"/>
+      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" repeatDur="2.5s" begin="t3.end"/>
       <set attributeName="opacity" to="0" begin="t4.end" fill="freeze"/>
     </rect>
 </g>
