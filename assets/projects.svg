@@ -37,7 +37,7 @@
 
   <rect width="1280" height="412" fill="#0A0A0B"/>
 
-  <g transform="translate(0,20)">
+  <g transform="translate(1280,206) scale(1.08) translate(-1280,-160)">
     <g opacity="1">
     <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
     <animate attributeName="opacity" calcMode="discrete"
