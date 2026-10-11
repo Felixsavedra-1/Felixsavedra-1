@@ -75,10 +75,41 @@
     </g>
 
     <g>
-      <animateTransform attributeName="transform" type="translate"
-                        values="0 0; 4 -3; 0 0" dur="38s" repeatCount="indefinite"/>
-      <ellipse cx="1080" cy="150" rx="220" ry="150" fill="url(#nebCrimson)"/>
-      <ellipse cx="1000" cy="108" rx="120" ry="92"  fill="url(#nebGold)"/>
+      <g opacity="1">
+        <animate attributeName="opacity" values="1;0.72;1;0.88;1" dur="19s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 7 -5; -4 4; 2 -2; 0 0" dur="46s" repeatCount="indefinite"/>
+          <ellipse cx="1080" cy="150" rx="220" ry="150" fill="url(#nebCrimson)"/>
+        </g>
+      </g>
+
+      <g opacity="1">
+        <animate attributeName="opacity" values="1;0.8;1;0.65;1" dur="14s" begin="-6s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -6 4; 3 -3; 0 0" dur="33s" repeatCount="indefinite"/>
+          <ellipse cx="1000" cy="108" rx="120" ry="92" fill="url(#nebGold)"/>
+        </g>
+      </g>
+
+      <g opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.4;0.7;0.55;0.7" dur="11s" begin="-3s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 9 6; -5 -4; 0 0" dur="27s" repeatCount="indefinite"/>
+          <ellipse cx="1155" cy="225" rx="150" ry="95" fill="url(#nebCrimson)"/>
+        </g>
+      </g>
+
+      <g opacity="0.35" transform="translate(1040,195) rotate(-12)">
+        <animate attributeName="opacity" values="0.35;0.15;0.35" dur="9s" begin="-2s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="-40 0; 40 0; -40 0" dur="52s" repeatCount="indefinite"/>
+          <ellipse cx="0" cy="0" rx="190" ry="14" fill="url(#nebGold)"/>
+        </g>
+      </g>
     </g>
 
     <g>
@@ -308,17 +339,19 @@
       <set attributeName="width" to="142.8" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="80;91.86;103.7;115.54;127.4;139.26;151.1;162.94;174.8"
-               begin="5.51s" dur="0.8s" fill="freeze"/>
+               begin="6.074s" dur="0.8s" fill="freeze"/>
       <animate id="pt1" attributeName="width" calcMode="discrete"
                values="142.8;130.94;119.1;107.26;95.4;83.54;71.7;59.86;0"
-               begin="5.51s" dur="0.8s" fill="freeze"/>
+               begin="6.074s" dur="0.8s" fill="freeze"/>
     </rect>
     <rect y="37.6" width="2" height="19.2" x="174.8" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="80;91.86;103.7;115.54;127.4;139.26;151.1;162.94;174.8"
-               begin="5.51s" dur="0.8s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="5.51s" end="pt1.end"/>
-      <set attributeName="opacity" to="0" begin="pt1.end" fill="freeze"/>
+               begin="6.074s" dur="0.8s" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0;1;0;1;0"
+               begin="6.074s" dur="0.8s" fill="freeze"/>
     </rect>
 
     <g opacity="0">
@@ -520,46 +553,58 @@
     </rect>
 
     <rect y="98" width="2.25" height="22.5" x="247.5" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;145.5;171;196.5;222;247.5"
                begin="pt2.end" dur="0.35s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="pt2.end" end="r1.end"/>
-      <set attributeName="opacity" to="0" begin="r1.end" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0"
+               begin="pt2.end" dur="0.35s" fill="freeze"/>
     </rect>
     <rect y="150" width="2.25" height="22.5" x="464.25" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;145.5;171;196.5;222;247.5;273;298.5;324;349.5;375;400.5;426;451.5;464.25"
                begin="r1.end" dur="1.2s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="r1.end" end="r2.end"/>
-      <set attributeName="opacity" to="0" begin="r2.end" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+               begin="r1.end" dur="1.2s" fill="freeze"/>
     </rect>
     <rect y="202" width="2.25" height="22.5" x="566.25" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;145.5;171;196.5;222;247.5;273;298.5;324;349.5;375;400.5;426;451.5;477;502.5;528;553.5;566.25"
                begin="r2.end" dur="1.6s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="r2.end" end="r3.end"/>
-      <set attributeName="opacity" to="0" begin="r3.end" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+               begin="r2.end" dur="1.6s" fill="freeze"/>
     </rect>
     <rect y="254" width="2.25" height="22.5" x="515.25" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;145.5;171;196.5;222;247.5;273;298.5;324;349.5;375;400.5;426;451.5;477;502.5;515.25"
                begin="r3.end" dur="1.4s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="r3.end" end="r4.end"/>
-      <set attributeName="opacity" to="0" begin="r4.end" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+               begin="r3.end" dur="1.4s" fill="freeze"/>
     </rect>
     <rect y="306" width="2.25" height="22.5" x="719.25" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;145.5;171;196.5;222;247.5;273;298.5;324;349.5;375;400.5;426;451.5;477;502.5;528;553.5;579;604.5;630;655.5;681;706.5;719.25"
                begin="r4.end" dur="2.15s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="r4.end" end="r5.end"/>
-      <set attributeName="opacity" to="0" begin="r5.end" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+               begin="r4.end" dur="2.15s" fill="freeze"/>
     </rect>
     <rect y="358" width="2.25" height="22.5" x="630" fill="#B23A3A" opacity="0">
+      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
       <animate attributeName="x" calcMode="discrete"
                values="120;145.5;171;196.5;222;247.5;273;298.5;324;349.5;375;400.5;426;451.5;477;502.5;528;553.5;579;604.5;630"
                begin="r5.end" dur="1.8s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" begin="r5.end" end="r6.end"/>
-      <set attributeName="opacity" to="0" begin="r6.end" fill="freeze"/>
+      <animate attributeName="opacity" calcMode="discrete"
+               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+               begin="r5.end" dur="1.8s" fill="freeze"/>
     </rect>
   </g>
 
