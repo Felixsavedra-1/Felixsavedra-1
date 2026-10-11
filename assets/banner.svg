@@ -50,22 +50,20 @@
                begin="2.095s" dur="1.61s" fill="freeze"/>
     </rect>
 
-    <rect y="91.35" width="3.45" height="63.25" x="370.9" fill="#B23A3A" opacity="0">
-      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+    <rect y="91.35" width="0" height="63.25" x="370.9" fill="#B23A3A">
       <animate attributeName="x" calcMode="discrete"
                values="370.9;412.3;453.7;495.1;536.5;577.9;619.3;660.7;702.1;743.5;784.9;826.3;867.7;909.1"
                begin="0.6s" dur="1.495s" fill="freeze"/>
-      <animate attributeName="opacity" calcMode="discrete"
-               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+      <animate attributeName="width" calcMode="discrete"
+               values="3.45;0;3.45;0;3.45;0;3.45;0;3.45;0;3.45;0;3.45;0"
                begin="0.6s" dur="1.495s" fill="freeze"/>
     </rect>
-    <rect y="178.75" width="2.3" height="21.85" x="420.35" fill="#B23A3A" opacity="0">
-      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+    <rect y="178.75" width="0" height="21.85" x="420.35" fill="#B23A3A">
       <animate attributeName="x" calcMode="discrete"
                values="420.35;446.8;473.25;500.85;527.3;553.75;580.2;606.65;634.25;660.7;687.15;713.6;741.2;767.65;794.1;820.55;847;860.8"
                begin="2.095s" dur="1.61s" fill="freeze"/>
-      <animate attributeName="opacity" calcMode="discrete"
-               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+      <animate attributeName="width" calcMode="discrete"
+               values="2.3;0;2.3;0;2.3;0;2.3;0;2.3;0;2.3;0;2.3;0;2.3;0;2.3;0"
                begin="2.095s" dur="1.61s" fill="freeze"/>
     </rect>
 
@@ -87,13 +85,12 @@
                values="333.5;306.82;280.14;253.46;226.78;200.1;173.42;146.74;120.06;93.38;66.7;40.02;13.34;0"
                begin="4.305s" dur="1.219s" fill="freeze"/>
     </rect>
-    <rect y="234.75" width="2.3" height="21.85" x="473.25" fill="#B23A3A" opacity="0">
-      <set attributeName="opacity" to="0" begin="0s" fill="freeze"/>
+    <rect y="234.75" width="0" height="21.85" x="473.25" fill="#B23A3A">
       <animate attributeName="x" calcMode="discrete"
                values="473.25;499.93;526.61;553.29;579.97;606.65;633.33;660.01;686.69;713.37;740.05;766.73;793.41;806.75"
                begin="4.305s" dur="1.219s" fill="freeze"/>
-      <animate attributeName="opacity" calcMode="discrete"
-               values="1;0;1;0;1;0;1;0;1;0;1;0;1;0"
+      <animate attributeName="width" calcMode="discrete"
+               values="2.3;0;2.3;0;2.3;0;2.3;0;2.3;0;2.3;0;2.3;0"
                begin="4.305s" dur="1.219s" fill="freeze"/>
     </rect>
 </g>
